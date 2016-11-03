@@ -1,77 +1,131 @@
-/* generic style */ 
+html {
+  background-color: black;
+}
 
 body {
   font-family: sans-serif;
-  list-style-type: none;
   font-size: 16px; 
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
+  background-color: white;
 }
-
-/* aside styling */ 
-
-aside {
-  float: right; 
-  width: 100%;
-  border: 1rem 1rem 1rem 1rem; 
-  border-color: black;
-  border-style: groove; 
-}
-
-img {
-  width: 10rem;
-  display: block;
-  margin: auto;
-}
-
+  
 /* header and nav styles */ 
 
-h2 {
-  font-style: normal;
-  border: inherit;
-  margin: inherit;
-  padding: inherit;
-}
-
-nav {
-  background-color: grey; 
-  padding: 1rem 0.8rem 0.8rem 1rem;
-}
-
-nav a {
-  color: purple; 
-  padding: 0 0.8rem 0.8rem 0;  
+header {
+  letter-spacing: 0.05rem;
+  background-color: black;
+  text-align: left;
+  position: relative;
 }
 
 .CTA {
   float: right;  
 }
 
+header h1 {
+  color: white;
+  padding: 0.8rem 0.8rem 1.3rem 2rem;
+}
+
+header h2 {
+  padding: 0.4rem; 
+  color: grey;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /* main styling */
 
 main {
   color:black;
-}
-
-header {
-  background-color:black;
-  color:white;
-}
-
-header h2 {
-  color: grey;
-  font-size: 0.8rem; 
-}
-
-.story {
-  
+  width: 50%;
+  float: left; 
+  line-height: 1.6rem;
+  padding: 1.2rem 0 1.2rem 1.2rem;
+  background-color: white; 
+  text-align: left;
 }
 
 .testimonials {
   font-style: italic;
-  width: 100%;
+}
+
+.testimonials h2 {
+  font-style:normal;
+}
+/* aside styling */ 
+
+aside {
+  float: right; 
+  border: 1rem 1rem 0 1rem; 
+  border-color: black;
+  border-style: groove; 
+  background-color: white; 
+  margin:2rem;
+  position: relative; 
+  width: 25%;
+  overflow: auto;
+  text-align: center;
+}
+
+aside h3 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+figure {
+  text-align: center;
+}
+
+figure p {
+  
+}
+img {
+  width: 10rem;
+  margin: auto;
+  padding-bottom: 0.6rem;
+  display: block;
 }
 
 /* footer styling */
 
+footer {
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  clear: both;
+  padding: 0.1rem 0 0 0; 
+}
+
+footer p {
+  text-align: left;
+  line-height: 0.3rem;
+}
+
+footer a {
+  color: red;
+}
+
+.copyright {
+  text-align: center;
+}
